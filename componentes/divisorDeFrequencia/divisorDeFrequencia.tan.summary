@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 17.500 ns
+From           : Habilitar
+To             : contador:inst10|inst5
+From Clock     : --
+To Clock       : Oscilador
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 20.400 ns
+From           : contador:inst6|inst5
+To             : TC
+From Clock     : Oscilador
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.600 ns
+From           : Habilitar
+To             : contador:inst|inst
+From Clock     : --
+To Clock       : Oscilador
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Oscilador'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 51.81 MHz ( period = 19.300 ns )
+From           : contador:inst2|inst
+To             : contador:inst10|inst5
+From Clock     : Oscilador
+To Clock       : Oscilador
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

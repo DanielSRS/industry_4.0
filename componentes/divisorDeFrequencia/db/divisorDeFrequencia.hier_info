@@ -1,0 +1,177 @@
+|divisorDeFrequencia
+modulo18 <= contador:inst9.Q1
+Habilitar => contador:inst.CE
+Oscilador => contador:inst.CLK
+Oscilador => contador:inst2.CLK
+Oscilador => contador:inst3.CLK
+Oscilador => contador:inst4.CLK
+Oscilador => contador:inst5.CLK
+Oscilador => contador:inst6.CLK
+Oscilador => contador:inst7.CLK
+Oscilador => contador:inst8.CLK
+Oscilador => contador:inst9.CLK
+Oscilador => contador:inst10.CLK
+Limpar => contador:inst.CLR
+Limpar => contador:inst2.CLR
+Limpar => contador:inst3.CLR
+Limpar => contador:inst4.CLR
+Limpar => contador:inst5.CLR
+Limpar => contador:inst6.CLR
+Limpar => contador:inst7.CLR
+Limpar => contador:inst8.CLR
+Limpar => contador:inst9.CLR
+Limpar => contador:inst10.CLR
+modulo19 <= contador:inst10.Q0
+TC <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisorDeFrequencia|contador:inst9
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisorDeFrequencia|contador:inst8
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisorDeFrequencia|contador:inst7
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisorDeFrequencia|contador:inst6
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisorDeFrequencia|contador:inst5
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisorDeFrequencia|contador:inst4
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisorDeFrequencia|contador:inst3
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisorDeFrequencia|contador:inst2
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisorDeFrequencia|contador:inst
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|divisorDeFrequencia|contador:inst10
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst5.ACLR
+CE => inst~1.IN0
+CE => inst~0.IN1
+CE => inst4.IN0
+CE => inst7.IN1
+CLK => inst.CLK
+CLK => inst5.CLK
+Q1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CEO <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+TC <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
